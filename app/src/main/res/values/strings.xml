@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">JD Company</string>
+    <string name="title">Sistema bancario</string>
+    <string name="id">Identificación</string>
+    <string name="fullname">Nombre Completo</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="acount">Nro de Cuenta</string>
+    <string name="date">Fecha de Creación</string>
+    <string name="balance">Saldo</string>
+    <string name="hour">Hora de Transacción</string>
+    <string name="tipetrans">Tipo de Transacción</string>
+    <string name="value">Valor de Transacción</string>
+    <string name="tdate">Fecha de Transacción</string>
+    <string name="consig">Consignación</string>
+    <string name="retiro">Retiro</string>
+    <string name="trans">Transacción</string>
+    <string name="cuenta">Cuenta Bancaria</string>
+
+</resources>

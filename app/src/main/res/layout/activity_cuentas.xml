@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black1"
+    android:orientation="vertical"
+    tools:context=".cuentas">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/cuenta"
+        android:textColor="@color/azul"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/id"
+        android:textColor="@color/yellow" />
+
+    <TextView
+        android:id="@+id/etidclientc"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.8"
+        android:backgroundTint="@color/azul2"
+        android:drawableStart="@drawable/ic_baseline_numbers_24"
+        android:gravity="center"
+        android:hint="@string/id"
+        android:inputType="number"
+        android:textColor="@color/azul1"
+        android:textColorHint="@color/azul1"
+        android:textSize="20dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/acount"
+        android:textColor="@color/yellow"
+
+        />
+
+    <EditText
+        android:id="@+id/etacount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.8"
+        android:backgroundTint="@color/azul2"
+        android:drawableStart="@drawable/card_outline"
+        android:gravity="center"
+        android:hint="@string/acount"
+        android:inputType="number"
+        android:textColor="@color/azul1"
+        android:textColorHint="@color/azul1"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/date"
+        android:textColor="@color/yellow"
+
+        />
+
+
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.8"
+        android:backgroundTint="@color/azul2"
+        android:drawableStart="@drawable/ic_baseline_date_range_24"
+        android:gravity="center"
+        android:hint="@string/date"
+        android:inputType="date"
+        android:textColor="@color/azul1"
+        android:textColorHint="@color/azul1"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/balance"
+        android:textColor="@color/yellow"
+
+        />
+
+
+    <TextView
+        android:id="@+id/etbalance"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.8"
+        android:backgroundTint="@color/azul2"
+        android:drawableStart="@drawable/ic_baseline_monetization_on_24"
+        android:gravity="center"
+        android:hint="@string/balance"
+        android:inputType="number"
+        android:textColor="@color/azul1"
+        android:textColorHint="@color/azul1"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btncreatec"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/azulOsc"
+            android:padding="7dp"
+            android:src="@drawable/ic_baseline_person_add_24" />
+
+        <ImageButton
+            android:id="@+id/btntransaction"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/azulOsc"
+            android:padding="7dp"
+            android:src="@drawable/cash_outline" />
+
+        <ImageButton
+            android:id="@+id/btnlogout"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/azulOsc"
+            android:padding="7dp"
+            android:src="@drawable/ic_baseline_logout_24" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
